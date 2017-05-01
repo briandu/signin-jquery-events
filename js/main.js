@@ -1,7 +1,7 @@
 function showModal() {
-  $('.modal').show();
+  $('.modal').fadeIn();
 }
 
 function closeModal() {
-  $('.modal').css('display', 'none')
+  $('.modal').fadeOut();
 }
